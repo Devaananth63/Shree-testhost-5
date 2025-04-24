@@ -320,12 +320,6 @@ footer
     margin-left: 10px;
     margin-right: 10px 
     }
-
-    .Services
-    {
-        background-image: none;
-        background-size: fill;
-    }
     .service-container {
         gap: 25px;
     }
