@@ -1,0 +1,492 @@
+*
+{
+    margin: 0;
+    text-decoration: none;
+    padding: 0;
+}
+.Box-Top
+{
+    background-color: #0b4b80;
+    height: 10%;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+}
+.Box-Bottom
+{
+    background-color: #f6f6f6;
+    height: 25%;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+}
+.Box-Middle {
+    background-color: #ffffff;
+    height: 15%;
+    margin-left: 175px;
+    margin-top: 50px;
+    width: 75%;
+    position: fixed;
+    display: flex;
+    align-items: center; 
+    justify-content: flex-start;
+    padding-left: 20px; 
+    z-index: 1001;
+}
+
+.Box-Middle img {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px; 
+}
+
+.title {
+    font-family: 'Inknut Antiqua', serif;
+    font-size: 1.8rem;
+}
+
+.Box-Middle ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-left: 100px; 
+}
+
+.Box-Middle ul li a
+{
+    font-family: 'Inria Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #0b4b80;
+    text-decoration: none;
+    display : inline-block;
+    transition: transform 0.5s;
+}
+
+.Box-Middle ul li a:hover
+{
+    transform: scale(1.1);
+}
+
+.Box-Middle h1{
+    font-family: 'Inknut Antiqua', serif;
+    color: #0b4b80;
+    font-size: 36px;
+    font-weight: 1000;
+    transition: color 0.3s;
+    transition: transform 0.5s;
+}
+
+
+.Profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 215px 60px 60px 60px; /* Top padding adjusted for fixed header height */
+    background-color: #f6f6f6;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.image{
+    flex: 1;
+    width: 1000px;
+    height: 400px;
+    margin-left: -150px;
+    border-radius: 20px;
+    /*overflow: hidden;*/
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0px;
+}
+
+.text {
+    flex: 1;
+    font-family: 'Inria Sans', sans-serif;
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border-radius: 25px;
+    padding: 30px;
+    font-size: 18px;
+    color: #000;
+    text-align: justify;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+.text h1 {
+    font-family: 'Inknut Antiqua', serif;
+    font-size: 32px;
+    color: #0b4b80;
+    margin-bottom: 20px;
+}
+
+.Founder
+{
+    display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 40px;
+  gap: 30px;
+  min-height: 110%;
+  background-color: #0b4b80;
+}
+
+.Founder-Image {
+    flex: 0 0 250px;
+  }
+
+  .founder-note {
+    flex: 1;
+    background-color: #fff;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px rgba(0,0,0,0.1);
+    font-family: 'Inria Sans', sans-serif;
+    font-size: 18px;
+  }
+  
+  .founder-note h1 {
+    font-family: 'Inknut Antiqua', serif;
+    color: #0b4b80;
+    font-size: 32px;
+    margin-bottom: 25px;
+  }
+
+  .founder-note p {
+    font-size: 18px;
+    text-align: justify;
+    line-height: 1.4;
+    color: #000;
+  }
+
+.Founder-Image img{
+    width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0px 4px 15px rgba(0,0,0,0.1);
+  margin-top: 5px;
+}
+
+.MissionVision {
+    padding: 60px;
+    background-color: #f6f6f6;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+    font-family: 'Inria Sans', sans-serif;
+}
+
+.MissionVision .mission,
+.MissionVision .vision {
+    flex: 1;
+    min-width: 300px;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.MissionVision h1 {
+    font-family: 'Inknut Antiqua', serif;
+    font-size: 24px;
+    color: #0b4b80;
+    margin-bottom: 15px;
+}
+
+.MissionVision p {
+    font-size: 18px;
+    text-align: justify;
+    line-height: 1.6;
+}
+
+footer
+{
+    background-color: #0b4b80;
+    height: auto;
+    padding-bottom: 20px;
+    padding-top: 15px;
+    padding-left: 15px;
+    text-align: left;
+    height: 400px;
+}
+
+.footer-container
+{
+    margin-top: 75px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 200px;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+}
+.line
+{
+    border-top: #ffffff;
+}
+.footer-address
+{
+    height: 350px;
+    margin-top: -60px;
+}
+
+.footer-links
+{
+    height: 350px;
+    margin-top: -60px;
+}
+
+.footer-help
+{
+    background-color: #ffffff;
+    display: none;
+    height: 350px;
+    width: 225px;
+    margin-top: -60px;
+    border-radius: 5% ;
+    text-decoration: none;
+}
+
+.footer-img
+{
+    width: 225px;
+    border-radius: 5%;
+}
+
+.footer-help p{
+    color: #0b4b80;
+    padding: 10px;
+    text-align: justify;
+    text-decoration: none;
+}
+
+.footer-help h2
+{
+    color: #0b4b80;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.footer-address h2
+{
+    color: #ffffff;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.footer-links .line
+{
+    border-top: 2px solid white;
+    width: 300px;
+    padding-top: 20px;
+    color: #ffffff;
+}
+
+.footer-links .line li a
+{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 22px;
+    line-height: 50px;
+}
+
+.footer-links h2
+{
+    color: #ffffff;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.footer-address p
+{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 22px;
+    line-height: 50px;
+    white-space: nowrap;
+}
+
+.footer-address .line
+{
+    border-top: 2px solid white;
+    width: 300px;
+    padding-top: 20px;
+    color: #ffffff;
+}
+
+
+@media (max-width: 768px) {
+    .Box-Middle {
+        flex-direction: flex-start;
+        align-items: left;
+        padding-left: 0; 
+        margin-left: 1%;
+        width: 98%;
+    }
+    .Box-Middle img {
+        width: 75px;
+        height: 75px;
+        margin-right: 10px;
+        margin-left: 10px; 
+    }
+    .Box-Middle h1{
+        font-family: 'Inknut Antiqua', serif;
+        color: #0b4b80;
+        font-size: 18px;
+        font-weight: 1000;
+    }
+    .Box-Middle ul li a
+    {
+    font-size: 14px;
+    }
+    .Box-Middle ul{
+    gap: 3px;
+    margin-left: 10px;
+    margin-right: 15px;
+    }
+    footer
+    {
+        height: 400px;
+        padding-bottom: 0px;
+    }
+    .footer-container
+    {
+    align-items: center;
+    gap: 40px;
+    }
+    .footer-address h2
+    {
+    font-size: 18px;
+    margin-bottom: 20px;
+    }
+    .footer-address p
+    {
+    font-size: 14px;
+    line-height: 20px;
+    }
+    .footer-container
+    {
+        gap: 0px;
+    }
+    .footer-address
+    {
+    height: 250px;
+    }
+    .footer-links h2
+    {
+        font-size: 18px;
+    }
+    .footer-links .line li a
+    {
+        
+        font-size: 14px;
+        line-height: 25px;
+        margin-left: 2.5%;
+    }
+    .footer-help
+    {
+        height: 0px;
+        width: 0px;
+        display: none;
+    }
+    .footer-help img
+    {
+        width: 0px;
+        height: 0px;
+    }
+    .footer-help h2
+    {
+        font-size: 0px;
+    }
+    .footer-help p
+    {
+        font-size: 0px;
+    }
+}
+@media (max-width: 768px) {
+    .Profile {
+      flex-direction: column;
+      padding: 200px 20px 40px 20px;
+      gap: 20px;
+    }
+  
+    .image {
+      width: 100%;
+      height: auto;
+      margin-left: 0;
+    }
+  
+    .image img {
+      border-radius: 15px;
+    }
+  
+    .text {
+      padding: 20px;
+      font-size: 16px;
+    }
+  
+    .text h1 {
+      font-size: 24px;
+      margin-bottom: 15px;
+    }
+  
+    .Founder {
+      flex-direction: column;
+      padding: 30px 20px;
+      gap: 20px;
+    }
+  
+    .Founder-Image {
+      flex: none;
+      width: 100%;
+    }
+  
+    .Founder-Image img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+  
+    .founder-note {
+      padding: 20px;
+      font-size: 16px;
+    }
+  
+    .founder-note h1 {
+      font-size: 24px;
+      margin-bottom: 15px;
+    }
+  
+    .founder-note p {
+      font-size: 16px;
+    }
+  
+    .MissionVision {
+      padding: 30px 20px;
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    .MissionVision h1 {
+      font-size: 22px;
+    }
+  
+    .MissionVision p {
+      font-size: 16px;
+    }
+  
+    .MissionVision .mission,
+    .MissionVision .vision {
+      padding: 20px;
+    }
+  }

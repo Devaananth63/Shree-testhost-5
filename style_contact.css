@@ -1,0 +1,391 @@
+*
+{
+    margin: 0;
+    text-decoration: none;
+    padding: 0;
+}
+.Box-Top
+{
+    background-color: #0b4b80;
+    height: 10vh;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+}
+.Box-Bottom
+{
+    background-color: #f6f6f6;
+    height: 25vh;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+}
+.Box-Middle {
+    background-color: #ffffff;
+    height: 15%;
+    margin-left: 175px;
+    margin-top: 50px;
+    width: 75%;
+    position: fixed;
+    display: flex;
+    align-items: center; 
+    justify-content: flex-start;
+    padding-left: 20px; 
+    z-index: 1001;
+}
+
+.Box-Middle img {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px; 
+}
+
+.title {
+    font-family: 'Inknut Antiqua', serif;
+    font-size: 1.8rem;
+}
+
+.Box-Middle ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-left: 100px; 
+}
+
+.Box-Middle ul li a
+{
+    font-family: 'Inria Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #0b4b80;
+    text-decoration: none;
+    display : inline-block;
+    transition: transform 0.5s;
+}
+
+.Box-Middle ul li a:hover
+{
+    transform: scale(1.1);
+}
+
+.Box-Middle h1{
+    font-family: 'Inknut Antiqua', serif;
+    color: #0b4b80;
+    font-size: 36px;
+    font-weight: 1000;
+    transition: color 0.3s;
+    transition: transform 0.5s;
+}
+
+.contact-intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+}
+
+
+.contact-main
+{
+    padding: 60px;
+    margin-top: 30px;
+    background-color: #f6f6f6;
+}
+
+.contact-container
+{
+    margin-top: 75px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+}
+
+.contact-card
+{
+    background-color: #ffffff;
+    width: 500px;
+    height: 400px;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease,translate 0.3s ease, box-shadow 0.3s ease;
+    margin: 20px;
+    border: 5px solid #0b4b80;
+    box-shadow: 0px 4px 12px #000;
+}
+
+.contact-card h2{
+    font-family: 'Inknut Antiqua', serif;
+    color: #0b4b80;
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.contact-card h3{
+    font-family: 'Inknut Antiqua', serif;
+    color: #0b4b80;
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.contact-card p{
+    font-family: 'Inria Sans', sans-serif;
+    color: #0b4b80;
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.contact-card p strong{
+    font-family: 'Inria Sans', sans-serif;
+    color: #0b4b80;
+    font-size: 20px;
+    text-decoration: none;
+    display : inline-block;
+    transition: transform 0.5s;
+}
+
+footer
+{
+    background-color: #0b4b80;
+    padding-top: 15px;
+    padding-left: 15px;
+    text-align: left;
+    height: 400px;
+}
+
+.footer-container
+{
+    margin-top: 75px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 200px;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+}
+.line
+{
+    border-top: #ffffff;
+}
+.footer-address
+{
+    height: 350px;
+    margin-top: -60px;
+}
+
+.footer-links
+{
+    height: 350px;
+    margin-top: -60px;
+}
+
+.footer-help
+{
+    background-color: #ffffff;
+    height: 350px;
+    width: 225px;
+    margin-top: -60px;
+    border-radius: 5% ;
+    text-decoration: none;
+}
+
+.footer-img
+{
+    width: 225px;
+    border-radius: 5%;
+}
+
+.footer-help p{
+    color: #0b4b80;
+    padding: 10px;
+    text-align: justify;
+    text-decoration: none;
+}
+
+.footer-help h2
+{
+    color: #0b4b80;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.footer-address h2
+{
+    color: #ffffff;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.footer-links .line
+{
+    border-top: 2px solid white;
+    width: 300px;
+    padding-top: 20px;
+    color: #ffffff;
+}
+
+.footer-links .line li a
+{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 22px;
+    line-height: 50px;
+}
+
+.footer-links h2
+{
+    color: #ffffff;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.footer-address p
+{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 22px;
+    line-height: 50px;
+    white-space: nowrap;
+}
+
+.footer-address .line
+{
+    border-top: 2px solid white;
+    width: 300px;
+    padding-top: 20px;
+    color: #ffffff;
+}
+.map-links
+{
+ width: 500px;
+ height: 400px;
+ border: 0px;
+}
+
+@media (max-width: 768px) {
+    .Box-Middle {
+        flex-direction: flex-start;
+        align-items: left;
+        padding-left: 0;  
+        margin-left: 1%;
+        width: 98%;
+    }
+    .Box-Middle img {
+        width: 75px;
+        height: 75px;
+        margin-right: 10px;
+        margin-left: 10px; 
+    }
+    .Box-Middle h1{
+        font-family: 'Inknut Antiqua', serif;
+        color: #0b4b80;
+        font-size: 18px;
+        font-weight: 1000;
+    }
+    .Box-Middle ul li a
+    {
+    font-size: 14px;
+    }
+    .Box-Middle ul{
+    gap: 3px;
+    margin-left: 10px;
+    margin-right: 10px 
+    };
+    .contact-card
+    {
+    width: 400px;
+    height: 450px;
+    }
+    .contact-container
+    {
+        margin-top: -15px;
+    }
+    .contact-card p
+    {
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 10px;
+    }
+    .contact-card p strong{
+        font-size: 18px;
+    }
+    .contact-card h2{
+        font-size: 24px;
+    }
+    footer
+    {
+        height: 400px;
+    }
+    .footer-container
+    {
+    align-items: center;
+    gap: 40px;
+    }
+    .footer-address h2
+    {
+    font-size: 18px;
+    margin-bottom: 20px;
+    }
+    .footer-address p
+    {
+    font-size: 14px;
+    line-height: 20px;
+    }
+    .footer-container
+    {
+        gap: 0px;
+        height: 200px;
+    }
+    .footer-address
+    {
+    height: 250px;
+    }
+    .footer-links h2
+    {
+        font-size: 18px;
+    }
+    .footer-links .line li a
+    {
+        
+        font-size: 14px;
+        line-height: 25px;
+        margin-left: 2.5%;
+    }
+    .footer-help
+    {
+        height: -300px;
+        width: 0px;
+    }
+    .footer-help img
+    {
+        width: 0px;
+        height: 0px;
+    }
+    .footer-help h2
+    {
+        font-size: 0px;
+    }
+    .footer-help p
+    {
+        font-size: 0px;
+    }
+    .Box-Bottom
+    {
+        background-color: #f6f6f6;
+        height: 25vh;
+        width: 100%;
+        position: fixed;
+        z-index: 999;
+    }
+}
